@@ -131,7 +131,7 @@ boxplot(dat$HOUSEHOLD_INCOME ~ dat$TARGET)
 
 
 # ---------------------------------------------------------------------------------
-# DATA MODELING: YEARS AS CUSTOMER
+# DATA VISUALIZATION: YEARS AS CUSTOMER
 # ---------------------------------------------------------------------------------
 # boxplot
 boxplot(dat$YEARS_AS_CUSTOMER ~ dat$TARGET)
