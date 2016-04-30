@@ -142,7 +142,7 @@ boxplot(dat$YEARS_AS_CUSTOMER ~ dat$TARGET)
 
 
 # ---------------------------------------------------------------------------------
-# DATA MODELING: GENDER
+# DATA EXPLORATION: GENDER
 # ---------------------------------------------------------------------------------
 # chi-square test on female and target
 femaleTarget = table(dat$TARGET, dat$Female)
