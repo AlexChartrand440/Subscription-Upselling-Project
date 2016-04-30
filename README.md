@@ -11,7 +11,7 @@ The only raw data provided is in CustSubscriptions.csv file. This file consists 
 <b>ANALYSIS PROCESSS</b><br>
 analysis.R shows the analysis process, written in R programming language. 
 
-Note that analysis was also done in SAS analytical software, but not displayed here because both analysis show similar result. 
+Note that analysis was also done in SAS analytical software, but not displayed here. Both analysis show similar result. 
 <br><br>
 <b>RESULT/CONCLUSION</b><br>
 
