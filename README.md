@@ -9,7 +9,7 @@ To understand the characteristics of customers who subscribe more than one magaz
 The only raw data provided is in CustSubscriptions.csv file. This file consists of data of 16,020 customers and various characteristics describing their demographic or behavior such as: age, gender, household income, years as customer, number of subscriptions, and total revenue. This data set does not specify over what time period is total revenue earned, so it is assumed that total revenue is the figure of yearly total revenue collected based on the year prior to when analysis is made.
 <br><br>
 <b>ANALYSIS PROCESSS</b><br>
-analysis.R shows the analysis process, written in R programming language. <br>
+analysis.R shows the analysis process, written in R programming language. <br><br>
 4 main steps in this analysis: initial setup, data reformat, data exploration, data modeling. <br> 
 1. In data reformat, household income and customer revenue variables data type are converted from categorical to numerical. New variable of Average Price Per Magazine is created. Interestingly, I find that the unique values of APPM in customers subscibing only one and more than one magazine is pretty much the same, except for the $80 APPM. So, I explore this aspect further using basic R commands such as table() and summary(). The finding from this group is that men around 40 years old subscribing 9-19 magazines for 10-11 years tend to subscribe to more expensive magazine. <br>
 2. In data modeling, I use random forest to understand which variables are most likely to influence customer subscription count. Model output shows that APPM and household income to be the most important features. <br>
@@ -25,3 +25,4 @@ Note that analysis was also done in SAS analytical software, but not displayed h
 3. Newer customer tend to subscribe to more magazines. 
 <br><br>
 <b>LESSON(S) LEARNED</b><br>
+In this project, I learn to identify demographic and behavioral features of customers who buy more than one magazine subscription. To tailor a more specific strategy to upsell customers, I need more data on variables such as magazine customers are now already subscribing, magazines options, price, and how was customer first activated (through phone offer, e-commerce coupon, search engine, etc). 
